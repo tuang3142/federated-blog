@@ -4,6 +4,7 @@ import '@/theme/theme.css';
 import PlausibleProvider from 'next-plausible';
 import { ThemeProvider } from 'next-themes';
 import { AppProps } from 'next/app';
+import 'prismjs/themes/prism-tomorrow.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
